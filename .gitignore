@@ -1,0 +1,15 @@
+# Ignorer les fichiers lourds
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tar.gz
+data/datasets/*
+!data/datasets/.gitkeep
+venv/
+__pycache__/
+*.pyc
+.DS_Store
