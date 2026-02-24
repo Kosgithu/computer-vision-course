@@ -27,6 +27,7 @@ notes/
 
 guides/                     # Guides et ressources complémentaires
 ├── huggingface-inference-api.md  # Guide API Hugging Face (Inference)
+├── commandes-terminal.md         # Commandes Linux Raspberry Pi (terminal)
 
 code/                       # Codes source du cours Udemy (anglais)
 data/                       # Datasets et images

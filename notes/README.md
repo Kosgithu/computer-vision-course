@@ -103,3 +103,4 @@ cv_course/
 ## Guides complémentaires
 
 - **[Hugging Face Inference API](../guides/huggingface-inference-api.md)** : Guide complet pour utiliser l'API Hugging Face (génération d'images et texte avec IA)
+- **[Commandes Terminal](../guides/commandes-terminal.md)** : Commandes Linux essentielles pour Raspberry Pi (navigation, fichiers, OpenCV, etc.)
