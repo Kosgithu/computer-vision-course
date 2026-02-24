@@ -13,7 +13,8 @@ notes/
 │   │   ├── fiche-4.3.md  # Retournement (Flipping)
 │   │   ├── fiche-4.4.md  # Luminosité (Brightness)
 │   │   ├── fiche-4.5.md  # Opérations Bitwise
-│   │   └── fiche-4.6.md  # Flou et Netteté (Blurring & Sharpening)
+│   │   ├── fiche-4.6.md  # Flou et Netteté (Blurring & Sharpening)
+│   │   └── fiche-4.7.md  # Seuillage (Thresholding)
 │   └── mes_codes/        # Codes Python traduits et commentés
 │       ├── 4.1-Load_Display_Save_FR.py
 │       ├── 4.2-Scaling_FR.py
@@ -21,7 +22,8 @@ notes/
 │       ├── 4.4-Varying_Brightness_FR.py
 │       ├── 4.5-Bitwise_Operations_FR.py
 │       ├── 4.5-Bitwise_Operations_FR_CLAIR.py
-│       └── 4.6-Blurring_Sharpening_FR.py
+│       ├── 4.6-Blurring_Sharpening_FR.py
+│       └── 4.7-Thresholding_FR.py
 ├── FICHES_CV_COURS.html  # Version HTML des fiches
 ├── FICHES_CV_COURS.md
 └── FICHES_CV_COURS.txt
@@ -41,8 +43,8 @@ projects/                 # Projets personnels
 | 4.4 | Luminosité | ✅ | ✅ | ✅ |
 | 4.5 | Opérations Bitwise | ✅ | ✅ | ✅ |
 | 4.6 | Flou et Netteté | ✅ | ✅ | ✅ |
-| 4.7 | Thresholding | ⏳ | ⏳ | En cours |
-| 4.8 | Érosion et Dilatation | ⏳ | ⏳ | À venir |
+| 4.7 | Thresholding | ✅ | ✅ | ✅ |
+| 4.8 | Érosion et Dilatation | ⏳ | ⏳ | En cours |
 | 4.9 | Détection de contours | ⏳ | ⏳ | À venir |
 | 4.10 | Segmentation | ⏳ | ⏳ | À venir |
 
