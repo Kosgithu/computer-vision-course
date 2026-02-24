@@ -97,3 +97,9 @@ cv_course/
 
 **Mes codes traduits :**
 `./cv_course/mes_codes/`
+
+---
+
+## Guides complémentaires
+
+- **[Hugging Face Inference API](../guides/huggingface-inference-api.md)** : Guide complet pour utiliser l'API Hugging Face (génération d'images et texte avec IA)
