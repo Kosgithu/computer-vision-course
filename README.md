@@ -25,6 +25,9 @@ notes/
         ├── 4.6-Blurring_Sharpening_FR.py
         └── 4.7-Thresholding_FR.py
 
+guides/                     # Guides et ressources complémentaires
+├── huggingface-inference-api.md  # Guide API Hugging Face (Inference)
+
 code/                       # Codes source du cours Udemy (anglais)
 data/                       # Datasets et images
 projects/                   # Projets personnels
