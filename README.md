@@ -25,10 +25,6 @@ notes/
         ├── 4.6-Blurring_Sharpening_FR.py
         └── 4.7-Thresholding_FR.py
 
-guides/                     # Guides et ressources complémentaires
-├── huggingface-inference-api.md  # Guide API Hugging Face (Inference)
-├── commandes-terminal.md         # Commandes Linux Raspberry Pi (terminal)
-
 code/                       # Codes source du cours Udemy (anglais)
 data/                       # Datasets et images
 projects/                   # Projets personnels
@@ -45,7 +41,7 @@ projects/                   # Projets personnels
 | 4.5 | Opérations Bitwise | ✅ | ✅ | ✅ |
 | 4.6 | Flou et Netteté | ✅ | ✅ | ✅ |
 | 4.7 | Thresholding | ✅ | ✅ | ✅ |
-| 4.8 | Érosion et Dilatation | ⏳ | ⏳ | En cours |
+| 4.8 | Érosion et Dilatation | ✅ | ✅ | ✅ |
 | 4.9 | Détection de contours | ⏳ | ⏳ | À venir |
 | 4.10 | Segmentation | ⏳ | ⏳ | À venir |
 
@@ -61,5 +57,10 @@ projects/                   # Projets personnels
 
 Devenir autonome en computer vision pour concevoir et fabriquer mes propres prototypes et petites machines.
 
+## 📚 Guides et ressources
+
+Les guides généraux (commandes terminal, Hugging Face, etc.) ont été déplacés dans le repo dédié :
+👉 **[raspberry-guides](https://github.com/Kosgithu/raspberry-guides)**
+
 ---
-*Dernière mise à jour: 2026-02-24*
+*Dernière mise à jour: 2026-02-25*
