@@ -2,35 +2,44 @@
 
 Projet de computer vision - Cours Udemy en cours.
 
-## Structure
+## 📚 Structure du Cours
 
 ```
-notes/
-└── cv_course/              # Notes du cours Udemy
-    ├── fiches/             # Fiches de révision traduites
-    │   ├── fiche-4.1.md    # Chargement et affichage
-    │   ├── fiche-4.2.md    # Redimensionnement
-    │   ├── fiche-4.3.md    # Retournement
-    │   ├── fiche-4.4.md    # Luminosité
-    │   ├── fiche-4.5.md    # Opérations Bitwise
-    │   ├── fiche-4.6.md    # Flou et Netteté
-    │   └── fiche-4.7.md    # Seuillage (Thresholding)
-    └── mes_codes/          # Codes Python traduits
-        ├── 4.1-Load_Display_Save_FR.py
-        ├── 4.2-Scaling_FR.py
-        ├── 4.3-Flipping_FR.py
-        ├── 4.4-Varying_Brightness_FR.py
-        ├── 4.5-Bitwise_Operations_FR.py
-        ├── 4.5-Bitwise_Operations_FR_CLAIR.py
-        ├── 4.6-Blurring_Sharpening_FR.py
-        └── 4.7-Thresholding_FR.py
-
-code/                       # Codes source du cours Udemy (anglais)
-data/                       # Datasets et images
-projects/                   # Projets personnels
+computer-vision-course/
+├── section-04-cv-basics/              # ✅ Fondamentaux OpenCV
+│   ├── notes/
+│   │   └── cv_course/
+│   │       ├── fiches/               # Fiches de révision (FR)
+│   │       │   ├── fiche-4.1.md      # Chargement et affichage
+│   │       │   ├── fiche-4.2.md      # Redimensionnement
+│   │       │   ├── fiche-4.3.md      # Retournement
+│   │       │   ├── fiche-4.4.md      # Luminosité
+│   │       │   ├── fiche-4.5.md      # Opérations Bitwise
+│   │       │   ├── fiche-4.6.md      # Flou et Netteté
+│   │       │   ├── fiche-4.7.md      # Seuillage (Thresholding)
+│   │       │   ├── fiche-4.8.md      # Érosion et Dilatation
+│   │       │   ├── fiche-4.9.md      # Détection de contours
+│   │       │   └── fiche-4.10.md     # Segmentation
+│   │       └── mes_codes/            # Codes Python traduits (FR)
+│   └── code/                         # Codes source originaux (EN)
+│
+├── section-05-real-world-apps/        # ⏳ Applications réelles (à venir)
+│
+├── section-06-neural-networks/        # ⏳ Réseaux de neurones (à venir)
+│
+├── section-07-assignments/            # ⏳ Exercices pratiques (à venir)
+│
+├── section-08-ai-resources/           # ⏳ Ressources IA (à venir)
+│
+├── data/                             # Datasets et images
+└── projects/                         # Projets personnels
 ```
 
-## Progression
+---
+
+## ✅ Section 4 : Computer Vision Applications
+
+Fondamentaux d'OpenCV - **TERMINÉE**
 
 | Chapitre | Sujet | Fiche | Code | Status |
 |----------|-------|-------|------|--------|
@@ -42,10 +51,23 @@ projects/                   # Projets personnels
 | 4.6 | Flou et Netteté | ✅ | ✅ | ✅ |
 | 4.7 | Thresholding | ✅ | ✅ | ✅ |
 | 4.8 | Érosion et Dilatation | ✅ | ✅ | ✅ |
-| 4.9 | Détection de contours | ⏳ | ⏳ | À venir |
-| 4.10 | Segmentation | ⏳ | ⏳ | À venir |
+| 4.9 | Détection de contours | ✅ | ✅ | ✅ |
+| 4.10 | Segmentation | ✅ | ✅ | ✅ |
 
-## Setup
+---
+
+## ⏳ Sections à venir
+
+| Section | Titre | Status |
+|---------|-------|--------|
+| **Section 5** | Real-world Computer Vision Applications | 🔜 À venir |
+| **Section 6** | Basics of Neural Network on Google Colab | 🔜 À venir |
+| **Section 7** | Hands-on Image Processing Assignments | 🔜 À venir |
+| **Section 8** | FREE Learning Resources on Artificial Intelligence | 🔜 À venir |
+
+---
+
+## 🛠️ Setup
 
 - **Hardware**: Raspberry Pi 5
 - **OS**: Linux 6.12.62+rpt-rpi-v8 (arm64)
@@ -53,14 +75,19 @@ projects/                   # Projets personnels
 - **OpenCV**: 4.10.0
 - **Librairies**: NumPy
 
-## Objectif
+---
+
+## 🎯 Objectif
 
 Devenir autonome en computer vision pour concevoir et fabriquer mes propres prototypes et petites machines.
 
-## 📚 Guides et ressources
+---
 
-Les guides généraux (commandes terminal, Hugging Face, etc.) ont été déplacés dans le repo dédié :
-👉 **[raspberry-guides](https://github.com/Kosgithu/raspberry-guides)**
+## 📚 Autres ressources
+
+- **Guides système Raspberry Pi** : [raspberry-guides](https://github.com/Kosgithu/raspberry-guides)
+- **Codes source Udemy** : `/home/oimadi/mes_ressources_md/Ressources_Udemy/Codes/Course_codes_image/`
 
 ---
+
 *Dernière mise à jour: 2026-02-25*
