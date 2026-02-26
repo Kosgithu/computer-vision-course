@@ -2,45 +2,33 @@
 
 Projet de computer vision - Cours Udemy en cours.
 
-## Structure
+## 🎯 Objectif
+
+Devenir autonome en computer vision pour concevoir et fabriquer mes propres prototypes et petites machines.
+
+---
+
+## 📚 Structure du Cours
 
 ```
-notes/
-└── cv_course/              # Notes du cours Udemy
-    ├── fiches/             # Fiches de révision traduites
-    │   ├── 4.1-chargement-affichage.md
-    │   ├── 4.2-redimensionnement.md
-    │   ├── 4.3-retournement.md
-    │   ├── 4.4-luminosite.md
-    │   ├── 4.5-operations-bitwise.md
-    │   ├── 4.6-flou-nettete.md
-    │   ├── 4.7-thresholding.md
-    │   ├── 4.8-erosion-dilatation.md
-    │   ├── 4.9-detection-contours.md
-    │   ├── 4.10-segmentation.md
-    │   └── 5.1-detection-visage-yeux-nez.md
-    └── mes_codes/          # Codes Python traduits
-        ├── 4.1-Load_Display_Save_FR.py
-        ├── 4.2-Scaling_FR.py
-        ├── 4.3-Flipping_FR.py
-        ├── 4.4-Varying_Brightness_FR.py
-        ├── 4.5-Bitwise_Operations_FR.py
-        ├── 4.6-Blurring_Sharpening_FR.py
-        ├── 4.7-Thresholding_FR.py
-        ├── 4.9-Edge_Detection_FR.py
-        ├── 4.10-Image_Segmentation_FR.py
-        └── 5.1-detection-visage-yeux-nez.py
-
-guides/                     # Guides et ressources complémentaires
-├── huggingface-inference-api.md
-└── commandes-terminal.md
-
-code/                       # Codes source du cours Udemy (anglais)
-data/                       # Datasets et images
-projects/                   # Projets personnels
+computer-vision-course/
+├── ✅ section-04-cv-basics/              # Section 4 : TERMINÉE (10/10)
+│   ├── notes/cv_course/fiches/           # 10 fiches de révision
+│   └── notes/cv_course/mes_codes/        # 10 codes traduits FR
+├── 🔄 section-05-real-world-apps/        # Section 5 : En cours (1/6)
+│   ├── notes/cv_course/fiches/
+│   └── notes/cv_course/mes_codes/
+├── ⏳ section-06-neural-networks/        # Section 6 : Réseaux de neurones
+├── ⏳ section-07-assignments/            # Section 7 : Exercices pratiques
+├── ⏳ section-08-ai-resources/           # Section 8 : Ressources IA
+├── data/                                 # Datasets et images
+├── projects/                             # Projets personnels
+└── ROADMAP.md                            # Progression détaillée
 ```
 
-## Progression
+---
+
+## ✅ Progression
 
 ### Section 4 : CV Basics (10/10) ✅
 
@@ -95,7 +83,9 @@ projects/                   # Projets personnels
 
 **Total : 11/26 chapitres (42%)**
 
-## Setup
+---
+
+## 🛠️ Setup
 
 - **Hardware**: Raspberry Pi 5 + SSD NVMe Gen3
 - **OS**: Debian GNU/Linux 13 (trixie) - 64-bit
@@ -103,9 +93,6 @@ projects/                   # Projets personnels
 - **OpenCV**: 4.10.0
 - **Librairies**: NumPy
 
-## Objectif
-
-Devenir autonome en computer vision pour concevoir et fabriquer mes propres prototypes et petites machines.
-
 ---
+
 *Dernière mise à jour: 2026-02-26*
