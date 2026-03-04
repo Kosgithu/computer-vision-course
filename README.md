@@ -51,7 +51,7 @@ computer-vision-course/
 | Chapitre | Sujet | Status |
 |----------|-------|--------|
 | 5.1 | Détection Visage/Yeux/Nez (VideoCapture + Haar) | ✅ |
-| 5.2 | Détection de voitures dans une vidéo | ⏳ |
+| 5.2 | Détection de voitures dans une vidéo | ✅ |
 | 5.3 | Détection de piétons CCTV | ⏳ |
 | 5.4 | Détection temps réel avec ORB | ⏳ |
 | 5.5 | Reconnaissance faciale - Partie 1 | ⏳ |
