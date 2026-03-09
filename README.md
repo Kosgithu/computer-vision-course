@@ -53,7 +53,7 @@ computer-vision-course/
 | 5.1 | Détection Visage/Yeux/Nez (VideoCapture + Haar) | ✅ |
 | 5.2 | Détection de voitures dans une vidéo | ✅ |
 | 5.3 | Détection de piétons CCTV | ⏳ |
-| 5.4 | Détection temps réel avec ORB | ⏳ |
+| 5.4 | Détection temps réel avec ORB | ✅ |
 | 5.5 | Reconnaissance faciale - Partie 1 | ⏳ |
 | 5.6 | Reconnaissance faciale - Partie 2 | ⏳ |
 
@@ -76,4 +76,4 @@ Exemple dans `section-05-real-world-apps/notes/cv_course/mes_codes/5.1-detection
 
 ---
 
-*Dernière mise à jour : 2026-03-04*
+*Dernière mise à jour : 2026-03-09*
