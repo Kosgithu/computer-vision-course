@@ -1,4 +1,7 @@
-# Détection de piétons sur vidéo CCTV
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+
 
 # Importation du package Computer Vision - cv2
 import cv2
