@@ -153,3 +153,19 @@ if __name__ == "__main__":
         # Sinon, on utilise la webcam classique
         print("Environnement PC/Webcam détecté.")
         detection_standard()
+"""Les 6 étapes clés du code :
+Initialisation (La mémoire) : Le programme charge en mémoire l'image de l'objet que tu veux reconnaître (ex: raspberry_pi.jpg). Il calcule une fois pour toutes ses points de repère.
+
+Capture & Miroir : Il récupère l'image de la caméra. Il l'inverse immédiatement (cv2.flip) pour que l'affichage soit naturel pour toi (comme un miroir).
+
+Le Viseur (ROI - Region of Interest) : Au lieu d'analyser toute l'image (ce qui est lourd), il dessine un cadre rouge au centre. Le programme ne "regarde" que ce qui se passe à l'intérieur de ce carré pour économiser de la puissance de calcul.
+
+Calcul de la "Signature" (ORB) : À l'intérieur de ce cadre, l'algorithme cherche des points stratégiques (coins, contrastes, formes). Il transforme ces points en une liste de nombres (les descripteurs).
+
+Le Match (La comparaison) : Il compare les nombres du viseur avec ceux de ton image de référence. Il utilise la distance de Hamming pour voir si les "signatures" se ressemblent.
+
+Le Verdict : * Il compte le nombre de points communs (matches).
+
+Si > 400 : L'objet est reconnu ! Le cadre devient Vert et il affiche "OBJET DÉTECTÉ".
+
+Sinon : Il reste en Rouge et continue de chercher."""
