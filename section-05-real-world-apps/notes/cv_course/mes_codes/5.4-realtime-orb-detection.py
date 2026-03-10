@@ -167,5 +167,9 @@ Le Match (La comparaison) : Il compare les nombres du viseur avec ceux de ton im
 Le Verdict : * Il compte le nombre de points communs (matches).
 
 Si > 400 : L'objet est reconnu ! Le cadre devient Vert et il affiche "OBJET DÉTECTÉ".
+Sinon : Il reste en Rouge et continue de chercher.
 
-Sinon : Il reste en Rouge et continue de chercher."""
+N'oublie pas de bien transformer tes divisions en nombres entiers (int), car OpenCV ne sait pas dessiner sur un "demi-pixel".
+Exemple : x1_top_left = int(frame_width / 3)
+
+"""
